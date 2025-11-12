@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Unidades Curriculares - Inteleca</title>
+  <link rel="stylesheet" href="unidade.css">
+  <link rel="stylesheet" href="unidade.js">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="app" role="application">
+    <aside class="sidebar" aria-label="Navegação">
+      <div class="brand">
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208756.png" alt="logo">
+        <h1>Intelecta</h1>
+      </div>
+
+      <nav class="nav" aria-label="Menu principal">
+        <ul>
+          <a href="dashboard.html"><li class="active" data-id="dashboard">Dashboard</li></a>
+
+          <li data-id="resumo">Meu resumo</li>
+          <li data-id="estatisticas">Estatísticas de aulas</li>
+          <li data-id="ucs">Unidades Curriculares</li>
+          <li data-id="plano">Plano de ensino</li>
+          <li data-id="biblioteca">Biblioteca</li>
+          <li data-id="calendario">Calendário</li>
+          <li data-id="perfil">Meu perfil</li>
+        </ul>
+      </nav>
+
+      <div style="margin-top:auto;font-size:13px;color:#9aa9c6">
+        <div style="margin-bottom:10px">SUPORTE</div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div class="meta">Chat</div>
+          <div class="meta">Email</div>
+          <div class="meta">Documentação</div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main" id="main">
+      <header class="top" role="region" aria-label="Topo">
+        <div class="search">
+          <input type="search" placeholder="Precisando de algo?">
+        </div>
+        <div class="user-area">Nome de usuário ▾</div>
+      </header>
+
+      <section class="content" aria-live="polite">
+        <article class="uc-card" data-uc="GQS">
+          <div class="uc-media" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abf6fdfb0c1c6d4b1b3b5d6f9b2a5a7d" alt="Imagem da unidade">
+          </div>
+
+          <div class="uc-info">
+            <h3>Gestão e Qualidade de Software</h3>
+            <p>
+              Esta unidade curricular tem por objetivo dotar os estudantes de competências e capacidades
+              para assumir papéis de liderança relacionados com a gestão de qualidade, garantia de qualidade,
+              melhoria de processos e certificações em organizações de desenvolvimento de software.
+            </p>
+
+            <div class="uc-actions">
+              <button class="btn">📄 Ementa</button>
+              <button class="btn">📝 Atividades</button>
+              <button class="btn">📁 Arquivos</button>
+            </div>
+
+            <div class="meta">Próxima avaliação: <span class="tag-pill">08 de outubro - A1</span></div>
+          </div>
+
+          <div class="uc-side">
+            <div class="semicircle" data-progress="75" aria-hidden="true">
+              <div class="arc-bg"></div>
+              <div class="arc-fill"><div class="fill-inner"></div></div>
+              <div class="arc-center">
+                <div class="progress-label">75%</div>
+                <small>Quase concluída</small>
+              </div>
+            </div>
+
+            <div class="next-list" aria-label="Próximas avaliações">
+              <h4>Próximas avaliações</h4>
+              <div class="ev-item"><div class="date">08 de outubro</div><div class="tag">A1</div></div>
+              <div class="ev-item"><div class="date">09 - 10 de outubro</div><div class="tag">A2</div></div>
+              <div class="ev-item"><div class="date">15 de outubro</div><div class="tag">A3</div></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="uc-card" data-uc="MMTES">
+          <div class="uc-media" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9f8a2d0f8aafdd8b6f0f6b8d4a6b2b11" alt="Imagem da unidade">
+          </div>
+
+          <div class="uc-info">
+            <h3>Modelos, Métodos e Técnicas de Engenharia de Software</h3>
+            <p>
+              Objetiva dotar os estudantes de capacidades para planear, construir, testar e manter sistemas de software
+              de forma estruturada e adaptável às necessidades do projeto e do cliente.
+            </p>
+
+            <div class="uc-actions">
+              <button class="btn">📄 Ementa</button>
+              <button class="btn">📝 Atividades</button>
+              <button class="btn">📁 Arquivos</button>
+            </div>
+
+            <div class="meta">Próxima avaliação: <span class="tag-pill">09 - 10 de outubro - A2</span></div>
+          </div>
+
+          <div class="uc-side">
+            <div class="semicircle" data-progress="75" aria-hidden="true">
+              <div class="arc-bg"></div>
+              <div class="arc-fill"><div class="fill-inner"></div></div>
+              <div class="arc-center">
+                <div class="progress-label">75%</div>
+                <small>Quase concluída</small>
+              </div>
+            </div>
+
+            <div class="next-list" aria-label="Próximas avaliações">
+              <h4>Próximas avaliações</h4>
+              <div class="ev-item"><div class="date">08 de outubro</div><div class="tag">A1</div></div>
+              <div class="ev-item"><div class="date">09 - 10 de outubro</div><div class="tag">A2</div></div>
+              <div class="ev-item"><div class="date">15 de outubro</div><div class="tag">A3</div></div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+  </div>
+
+  
+</body>
+</html>

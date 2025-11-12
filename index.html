@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Inteleca</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h1>Bem vindo!</h1>
+      <p>Insira seus dados para acessar a Inteleca</p>
+
+      <form action="dashboard.html">
+        <label>Email</label>
+        <input type="email" placeholder="email@dominio.com" required>
+
+        <div class="password-field">
+          <label>Senha</label>
+          <a href="#" class="forgot">Esqueci minha senha</a>
+        </div>
+        <input type="password" placeholder="********" required>
+
+        <div class="checkbox">
+          <input type="checkbox" id="manter">
+          <label for="manter">Manter conectada</label>
+        </div>
+
+        <button type="submit">Entrar</button>
+
+        <div class="divider"><span>Ou</span></div>
+
+        <p class="login-text">Não tem uma conta? <a href="cadastro.html">Crie aqui</a></p>
+      </form>
+    </div>
+
+    <div class="image-section">
+      <div class="logo-content">
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208756.png" alt="Logo Inteleca">
+        <h2>Inteleca</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
