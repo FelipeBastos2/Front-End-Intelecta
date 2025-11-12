@@ -154,3 +154,95 @@ button:hover {
   font-size: 36px;
   font-weight: 700;
 }
+
+
+@media (max-width: 1024px) {
+  .form-section {
+    padding: 0 60px;
+  }
+
+  .logo-content img {
+    width: 120px;
+  }
+
+  .logo-content h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .form-section,
+  .image-section {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .form-section {
+    padding: 40px 30px;
+    order: 2;
+  }
+
+  .image-section {
+    height: 250px;
+    order: 1;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .logo-content img {
+    width: 100px;
+  }
+
+  .logo-content h2 {
+    font-size: 26px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  button {
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-section {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 13px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .logo-content h2 {
+    font-size: 22px;
+  }
+}
